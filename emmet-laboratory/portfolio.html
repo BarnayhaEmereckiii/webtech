@@ -6,21 +6,21 @@
     <title>DJames</title>
 </head>
 <body>
-    <nav align="center" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; word-spacing: 1in; margin-top: 1cm;">
-        <h2>
-            <a href="">HOME</a>
+    <nav id="Home">
+        <h2 >
+            <a href="#Home">HOME</a>
             <a href="#About">ABOUT</a>
             <a href="#Skills">SKILLS</a>
-            <a href="">PROJECTS</a>
-            <a href="">CONTACTS</a>
+            <a href="#Projects">PROJECTS</a>
+            <a href="#Contacts">CONTACTS</a>
         </h2>
     </nav>
     <hr>
     <br>
-    <section id="About" align="center" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; margin-left: 5in; margin-right: 5in; font-size: large;">
-        <p class="image" align="center">
+    <section id="About">
+        <p class="image">
             
-                <img src="images/PIC.jpg" alt="mypfp" style="border-radius: 100%;" width="250" height="300">
+                <img src="images/PIC.jpg" alt="mypfp" width="250" height="300">
         </p>
 
         <br><br>
@@ -29,8 +29,9 @@
        <br><br>
 
          <hr>
-    <section class="skills" id="Skills" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
-        <table align="center">
+    <section id="Skills">
+        <H1>SKILLS</H1>
+        <table>
 
             <th>SKILL</th>
             <th>LEVEL</th>
@@ -79,21 +80,66 @@
     <hr>
 
 
-    <section class="Projects" id="projects">
-        <div class="card">
-            <h1></h1>
-        </div>
-        
-        <div class="card">
+    <section class="Projects" id="Projects">
 
-        </div>
+        <h1>PROJECTS</h1>
+        <div>
+            <div class="card">
+                <h3>ANSHS 42nd Founding Anniversay</h3>
+                <p>Aurora Nation Science High School 42nd Founding Anniversay T-card video</p>
+                <a href="https://drive.google.com/file/d/148tAyNB-sZIYahO6WFsVotVNfNzgk_JQ/view?usp=sharing">ANSHS T-card</a>
+            </div>
+            
+            <div class="card">
+                <h3>Studio Morphing Transition</h3>
+                <p>News studio morphing into sight seeings in Baler, Aurora</p>
+                <a href="https://drive.google.com/file/d/1Ept3wkJK5UxPkghpZPVLzZb6k6BrylO7/view?usp=sharing">Morph 1</a>
+            </div>
 
-        <div class="card">
-
+            <div class="card">
+                <h3>Studio Morphing Transition 2</h3>
+                <p>News studio morphing into sight seeings in Balanga, Bataan</p>
+                <a href="https://drive.google.com/file/d/1H06MkpQ8rxTcyjqYDVBQ_LHaQQHvzZKl/view?usp=sharing">Morph 2</a>
+            </div>
         </div>
     </section>
+    <br><br>
+    <hr>
 
-    <footer style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif; margin-top: 60px; padding: 20px; text-align: center; color: #8c8c8c; border-top: 1px solid #333;">
+
+    <section id="Contacts">
+    <H1>KEEP IN TOUCH</H1>
+    <form action="/submit" method="post">
+            
+        <label for="Name">Name:</label>
+        <input type="text" name="" id="Name" placeholder="Enter your name" required>
+
+        <label for="Email">Email:</label>
+        <input type="email" name="email" id="email" required>
+        
+        <br><br>
+
+        <label for="Subject">Subject:</label>
+        <br>
+        <input type="text" name="" id="Subject" required>
+
+        <br><br>
+        <label for="Message">Message</label>
+        <br>
+        <textarea name="text" id="message" required placeholder="Your reason to message"></textarea>
+        <br><br>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+        
+    </form>
+    </section >
+    <br><br>
+        <hr>
+
+    
+
+    <footer >
         © 2026 - JMRB
     </footer>
 
